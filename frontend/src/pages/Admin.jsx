@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import PackageCard from '../components/PackageCard';
 import { Trash2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { usePackages } from '../utils/data';
+import { usePackages } from '../utils/Data.jsx';
 import { v4 as uuidv4 } from 'uuid';
 
 const Admin = () => {

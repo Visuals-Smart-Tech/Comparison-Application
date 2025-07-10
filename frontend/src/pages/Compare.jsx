@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import PackageCard from '../components/PackageCard';
 import { Check, X, Star } from 'lucide-react';
-import { usePackages } from '../utils/data';
+import { usePackages } from '../utils/Data.jsx';
 
 const Compare = () => {
   const { packages } = usePackages();

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import PackageCard from '../components/PackageCard';
 import ComparisonModal from '../components/ComparisonModel';
 import { SearchIcon, SlidersHorizontal, X, Check } from 'lucide-react';
-import { usePackages } from '../utils/data';
+import { usePackages } from '../utils/Data.jsx';
 
 const Search = () => {
   const { packages, getFilteredPackages } = usePackages();
