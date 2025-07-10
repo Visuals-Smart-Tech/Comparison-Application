@@ -27,7 +27,6 @@ const PackageCard = ({
           </div>
         </div>
       </div>
-      
       <div className="p-5">
         <div className="flex items-start justify-between mb-2">
           <h3 className="text-xl font-semibold line-clamp-1">{pkg.name}</h3>
