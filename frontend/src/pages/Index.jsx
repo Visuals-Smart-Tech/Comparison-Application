@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import PackageCard from '../components/PackageCard';
 import { ArrowRight } from 'lucide-react';
-import { usePackages } from '../utils/data';
+import { usePackages } from '../utils/Data.jsx';
 
 const Index = () => {
   const { packages } = usePackages();
