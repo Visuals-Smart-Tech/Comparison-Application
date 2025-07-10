@@ -102,7 +102,6 @@ const initialPackages = [
 
 // Create a context for packages
 export const PackageContext = createContext();
-
 export const PackageProvider = ({ children }) => {
   // Load packages from localStorage or use initial packages
   const [packages, setPackages] = useState(() => {
